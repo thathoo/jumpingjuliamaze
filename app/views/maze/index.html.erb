@@ -6,12 +6,12 @@
     <form action="/" method="get" class="mb-6 text-center">
       <div class="mb-3">
         <label for="width" class="block text-sm font-medium text-gray-700">Width</label>
-        <input type="number" name="width" id="width" min="1" value="<%= params[:width] || 5 %>"
+        <input type="number" name="width" id="width" min="1" value="<%= params[:width] || 4 %>"
                class="mt-1 block w-24 mx-auto px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500">
       </div>
       <div class="mb-3">
         <label for="height" class="block text-sm font-medium text-gray-700">Height</label>
-        <input type="number" name="height" id="height" min="1" value="<%= params[:height] || 5 %>"
+        <input type="number" name="height" id="height" min="1" value="<%= params[:height] || 4 %>"
                class="mt-1 block w-24 mx-auto px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500">
       </div>
       <button type="submit"

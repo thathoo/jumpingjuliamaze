@@ -4,8 +4,8 @@ class MazeController < ApplicationController
     height = params[:height].to_i
 
     # Default maze dimensions if none provided
-    width = 5 if width <= 0
-    height = 5 if height <= 0
+    width = 4 if width <= 0
+    height = 4 if height <= 0
 
     @maze = generate_jumping_julia_maze(width, height)
   end
